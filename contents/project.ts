@@ -17,7 +17,7 @@ export const projects: Project[] = [
         technologies: ['Next.js', 'Tailwind CSS'],
         githubLink: 'https://github.com',
         demoLink: 'https://demo.com',
-        image: '/projects/portfolio-website.JPG',
+        image: '/projects/Portfolio-website.JPG',
       },
     
      
