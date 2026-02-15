@@ -7,10 +7,12 @@ export interface Project {
   image: string;
 }
 
-export interface Blog {
-  title: string;
-  excerpt: string;
-  date: string;
-  readTime: string;
-  slug: string;
+
+export type Blog = {
+  title: string
+  excerpt: string
+  date: string
+  readTime: string
+  slug: string
+  content: string   // 👈 ADD THIS
 }

@@ -94,7 +94,7 @@ const {theme, toggleTheme} = useTheme ();
                   ))
                 }
                 <div>
-                  <button onClick={toggleTheme} className=' flex items-center py-2 text-white hover:text-primary transition-colors'>
+                  <button onClick={toggleTheme} className=' flex items-center py-2 hover:text-primary transition-colors'>
                     {
                       theme === "dark" ? (
                         <> <SunIcon className='w-5 h-5 mr-2' />Dark Mode</>
